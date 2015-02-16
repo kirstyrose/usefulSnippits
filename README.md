@@ -7,4 +7,5 @@ So I went and made a handy selection of code snippets:-
 | ------------- |:-------------:| 
 |  alerts       |      js       |      
 |  multiplemaps |      js       |      
-|  venueselect  |      js       |      
+|  tabs         |      js       |      
+|  venueselect  |      js       |

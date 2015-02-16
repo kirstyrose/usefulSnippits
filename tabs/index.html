@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabs</title>
+	</head>
+	<body>
+		<style>
+			body { font-family: calibri; }
+			.hide { display: none; }
+			.active { display: block; }
+			h1 {
+				padding: 10px 0;
+				margin: 0 10px;
+			}
+			nav > a, .active {
+				display: inline-block;
+				width: 100px;
+				padding: 10px 0;
+				margin: 0 10px;
+				text-align: center;
+				background: red;
+				text-decoration: none;
+				color: white;
+			}
+			nav > a:hover { 
+				background: darkred;
+			}
+			.active {
+				background: darkred;
+			}
+			.btn-wrapper {
+				margin-top: 20px;
+				padding: 10px;
+				background: red;
+				width: 329px;
+				margin: 10px 10px;
+			}
+			.btn-wrapper > article {
+				display: none;
+			}
+			.btn-wrapper > article:first-child {
+				display: block;
+			}
+		</style>
+
+		<h1>
+			Handy js Tabs ;)
+		</h1>
+        <div class="btns">
+            <nav class="js-btn__tabs">
+                <a href="#btn1" class="active">1</a>
+                <a href="#btn2">2</a>
+                <a href="#btn3">3</a>
+            </nav>
+        </div>
+        <div class="btn-wrapper">
+            <article id="btn1">
+                Button 1 active!
+                <p>
+                	<strong>FoodFact:</strong>
+                	The word “chocolate” comes from the Aztec word “xocoatl,” which referred to the bitter, spicy drink the Aztecs made from cacao beans.
+                </p>
+            </article>
+            <article id="btn2">
+                Button 2 active!
+                <p>
+                	<strong>SpaceFact:</strong>
+                	White holes are the exact opposites of black holes. A black holes sucks in energy and a white hole expels energy. They are polar opposites. Some scientists even believe you can make a wormhole if you connect a white hole and a black hole.
+                </p>
+            </article>
+            <article id="btn3">
+                Button 3 active!
+                <p>
+                	<strong>CatFact:</strong>
+                	During the time of the Spanish Inquisition, Pope Innocent VIII condemned cats as evil and thousands of cats were burned. Unfortunately, the widespread killing of cats led to an explosion of the rat population, which exacerbated the effects of the Black Death.
+                </p>
+            </article>
+        </div>
+     
+		<!-- === scripts === -->
+		<script src="jquery-1.11.2.min.js"></script>
+		<script src="tabs.js"></script>
+
+	</body>
+</html>
