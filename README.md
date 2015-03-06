@@ -9,3 +9,4 @@ So I went and made a handy selection of code snippets:-
 |  multiplemaps |      js       |      
 |  tabs         |      js       |      
 |  venueselect  |      js       |
+|  fetchim      |      php      |
